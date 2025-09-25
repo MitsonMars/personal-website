@@ -1,7 +1,9 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <link rel="stylesheet" href= "style.css" />
-<head>
-
-
+img { 
+  width:200px;
+}
+body{
+  text-align:center;
+  font-family: 'Arial'; 
+  color: black;
+  background: green; 
+}
