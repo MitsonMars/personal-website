@@ -2,13 +2,23 @@
 <html>
   <head> 
       <link rel="stylesheet" href= "style.css" />
+      <meta charset= "UTF-8"> 
+      <meta name = "viewport" content = "width = device width, inital-scale = 1.0"> 
+      <title> Task Manager App </title>
   </head>  
   <body>
-    <img 
-      src = "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSfY2hqABoCkzEqcMXlwndqzoVsMK6i7kt4AE7Z9y8_GlkkeWCL8JdRH0w40U4fD92DVdHMqRhWxgh6R4POwTcEujg7V7RX1001fFXqDiIBTQ"
-    />
-  <h1> Mitul Sridhar </h1>
-  <p> Recipe to make Butter Chicken</p>
-  <p> Stellas a bum</p>
+    <main class = "container" > 
+      <header> <h1> Task Manager App </h1>
+      <div> <form id= "task-form"> 
+        <input type = "text" id = "task-input" placeholder = "Enter Task..."/> 
+        <button type = "submit"> Add Task </button>
+        <ul id="task-list">
+          <li> task-1 </li>
+          <li> task-2 </li>
+          <li> task-3 </li>
+        <ul> 
+      </form></div></header>
+    </main>
+    <script src = "app.js" > </script>
   </body> 
 </html>
